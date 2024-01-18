@@ -32,3 +32,12 @@ public class Solution {
         return ans;
     }
 }
+
+/* 
+//optimal 
+    if(m==0){
+            return n;
+        }
+        return calcGCD(m, n%m);
+    }
+*/
